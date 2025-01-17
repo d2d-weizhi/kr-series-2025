@@ -1,0 +1,26 @@
+{
+	"modules": [
+		{
+			"module_id": "ABX18271",
+			"module_title": "Products Listing",
+			"module_desc": "This module includes the listing, searching, filtering functionalities, as well as the product details page.",
+			"project_id": 1726,
+			"team_id": 11,
+			"module_status_id": 1,
+			"start_date": 16726834,
+			"est_end_date": 16726827,
+			"act_end_date": -1
+		},
+		{
+			"module_id": "ABX18272",
+			"module_title": "Shopping Cart",
+			"module_desc": "This includes the Cart summary page, payment and delivery options sections, and the final status section.",
+			"project_id": 1726,
+			"team_id": 11,
+			"module_status_id": 1,
+			"start_date": 1672645,
+			"est_end_date": 1672623,
+			"act_end_date": -1
+		}
+	]
+}

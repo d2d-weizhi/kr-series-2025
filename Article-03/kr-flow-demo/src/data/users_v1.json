@@ -1,0 +1,12 @@
+{
+	"users": [
+		{
+			"user_id": 1,
+			"first_name": "Zhi Qiang",
+			"last_name": "Goh",
+			"job_title": "Lead Web Developer",
+			"mobile_no": "81234567",
+			"email": "zhiqiang.goh@zenco.com"
+		}
+	]
+}

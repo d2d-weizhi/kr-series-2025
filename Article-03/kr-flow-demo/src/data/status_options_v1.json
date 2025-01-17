@@ -1,0 +1,20 @@
+{
+	"status_options": [
+		{
+			"status_id": 1,
+			"status_title": "Pending Approval"
+		},
+		{
+			"status_id": 2,
+			"status_title": "WIP"
+		},
+		{
+			"status_id": 3,
+			"status_title": "Testing"
+		},
+		{
+			"status_id": 4,
+			"status_title": "Completed"
+		}
+	]
+}
