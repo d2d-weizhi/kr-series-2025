@@ -1,28 +1,15 @@
 import React from 'react';
-import { Button } from '@progress/kendo-react-buttons';
-import kendoka from './kendoka.svg';
+// Step 5: Remove the un-necessary import statements
+//         Import our TaskList component.
+import  TaskList from './components/tasks/TaskList';
 import './App.scss';
 
 function App() {
-  const handleClick = React.useCallback(() => {
-    window.open('https://www.telerik.com/kendo-react-ui/components/', '_blank');
-  }, []);
-
+  // Step 6: Removing the un-necessary coding.
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={kendoka} className="App-logo" alt="kendoka" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <Button
-          themeColor={'primary'}
-          size={"large"}
-          onClick={handleClick}
-        >
-          Learn KendoReact
-        </Button>
-      </header>
+    <div className="tl-container">
+      {/* Step 7: Importing our TaskList component */}
+      <TaskList />
     </div>
   );
 }
