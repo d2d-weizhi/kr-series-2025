@@ -1,8 +1,17 @@
+"use client";
+
 import Image from "next/image";
-import { Calendar } from "@progress/kendo-react-dateinputs";
+import { Button } from "@progress/kendo-react-buttons";
+import { useRouter } from "next/navigation";
 import TaskList from "@/app/ui/tasks/TaskList";
 
 export default function Home() {
+  const router = useRouter();
+  
+  function onAddTaskClicked() {
+    router.push("/TaskDetails");
+  }
+  
   return (
     <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
       <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
@@ -27,6 +36,13 @@ export default function Home() {
             Save and see your changes instantly.
           </li>
         </ol>
+        <Button
+          type="button"
+          themeColor={"primary"}
+          onClick={onAddTaskClicked}
+        >
+          Add Task
+        </Button>
         <TaskList />
         <div className="flex gap-4 items-center flex-col sm:flex-row">
           <a
