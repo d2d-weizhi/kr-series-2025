@@ -1,0 +1,14 @@
+.task-list {
+	list-style-type: none;
+	width: 100%;
+	
+	li {
+		padding: 4px 2px;
+		border-bottom: 1px solid #eee;
+	}
+}
+
+.completed-item {
+	color: #ccc;
+	text-decoration: line-through;
+}
