@@ -14,7 +14,7 @@ const tasks: Task[] = [
 ];
 
 export default function TaskList() {
-	const [taskList, setTaskList] = useState<Task[]>([]);
+	const [taskList, setTaskList] = useState<Task[]>(tasks);
 	const [isLoading, setIsLoading] = useState(true);
 	const [error, setError] = useState<Error | null>(null);
 	
